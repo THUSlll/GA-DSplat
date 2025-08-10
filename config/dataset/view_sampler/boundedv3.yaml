@@ -1,0 +1,17 @@
+name: boundedv3
+
+num_target_views: 4
+num_context_views: 4
+
+min_distance_between_context_views: 2
+max_distance_between_context_views: 6
+max_distance_to_context_views: 0
+
+context_gap_warm_up_steps: 0
+target_gap_warm_up_steps: 0
+
+initial_min_distance_between_context_views: 2
+initial_max_distance_between_context_views: 6
+initial_max_distance_to_context_views: 0
+
+random_num_view_sample: true

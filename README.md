@@ -60,6 +60,10 @@ ACID数据集完整管线的定量结果，16张视图：
 
 ## 🚀 使用 (Usage)
 
+### 模型
+
+- 注意，模型核心部分还未开源，但是我们会在论文准备完成后开源。
+
 ## 数据集
 
 你可以在这里下载到数据集：[ACID](https://hyper.ai/cn/datasets/20569)，[RealEstate10K](https://google.github.io/realestate10k/download.html)，[DL3DV-10K](https://github.com/DL3DV-10K/Dataset)
@@ -141,9 +145,7 @@ wget https://huggingface.co/depth-anything/Depth-Anything-V2-Small/resolve/main/
 - 你可以参考脚本 [scripts/re10k_depthsplat_train.sh](scripts/re10k_depthsplat_train.sh) 和[scripts/dl3dv_depthsplat_train.sh](scripts/dl3dv_depthsplat_train.sh) 来找到用于训练的指令。我们的模型使用一张H800进行训练，对于small模型来说，两视图用于训练时，它会占用GB左右显存用于训练。
 - 你可以通过设置`dataset.view_sampler=boundedv3`来启用随机输入视图数量，这会让模型在多视图情况下表现更好，但在两视图情况下造成一定性能下降。并且`boundedv3`无法进行batch打包，你必须禁用数据集的多线程加载，即设置`num_worker=0`。
 
-### 模型
 
-- 注意，模型核心部分还未开源，但是我们会在论文准备完成后开源。
 
 ## Acknowledgements
 

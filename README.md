@@ -52,6 +52,7 @@ ACID数据集完整管线的定量结果，16张视图：
 
 ![image-20250810214911491](Git_Assets/comparison.png)
 
++ 小幅相机扰动可视化
 
 | ![wobble0](Git_Assets/wobble0.gif) | ![wobble1](Git_Assets/wobble1.gif) |
 |--------|---------------|

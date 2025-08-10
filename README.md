@@ -20,7 +20,7 @@ ACID数据集完整管线的定量结果，4张视图：
 |    [MVSplat](https://github.com/donydchen/mvsplat)    | 20.30  | 0.739  |  0.246  |
 |    [DepthSplat](https://github.com/cvg/depthsplat)    | 26.34  | 0.869  |  0.151  |
 |     [GGN](https://github.com/shengjun-zhang/GGN)      | 26.46  | 0.785  |  0.175  |
-|                         Ours                          | 28.88  | 0.870  |  0.149  |
+|                         Ours                          | **28.88**  | **0.870**  |  **0.149**  |
 
 ACID数据集完整管线的定量结果，8张视图：
 
@@ -30,7 +30,7 @@ ACID数据集完整管线的定量结果，8张视图：
 |    [MVSplat](https://github.com/donydchen/mvsplat)    | 19.02  | 0.705  |  0.280  |
 |    [DepthSplat](https://github.com/cvg/depthsplat)    | 23.98  | 0.829  |  0.183  |
 |     [GGN](https://github.com/shengjun-zhang/GGN)      | 26.94  | 0.793  |  0.170  |
-|                         Ours                          | 27.26  | 0.835  |  0.170  |
+|                         Ours                          | **27.26**  | **0.835**  |  **0.170**  |
 
 ACID数据集完整管线的定量结果，16张视图：
 
@@ -39,7 +39,7 @@ ACID数据集完整管线的定量结果，16张视图：
 | [pixelSplat](https://github.com/dcharatan/pixelsplat) | 17.32  | 0.665  |  0.313  |
 |    [MVSplat](https://github.com/donydchen/mvsplat)    | 17.64  | 0.672  |  0.279  |
 |    [DepthSplat](https://github.com/cvg/depthsplat)    | 22.79  | 0.791  |  0.214  |
-|     [GGN](https://github.com/shengjun-zhang/GGN)      | 27.69  | 0.814  |  0.162  |
+|     [GGN](https://github.com/shengjun-zhang/GGN)      | **27.69**  | **0.814**  |  **0.162**  |
 |                         Ours                          | 26.15  | 0.800  |  0.192  |
 
 ## 🔧 核心改进 (Key Improvements)
@@ -52,16 +52,10 @@ ACID数据集完整管线的定量结果，16张视图：
 
 ![image-20250810214911491](Git_Assets/comparison.png)
 
-<table>
-  <tr>
-    <td><video src="Git_Assets/wobble0.mp4" controls width="100%"></video></td>
-    <td><video src="Git_Assets/wobble1.mp4" controls width="100%"></video></td>
-  </tr>
-  <tr>
-    <td><video src="Git_Assets/rgb0.mp4" controls width="100%"></video></td>
-    <td><video src="Git_Assets/rgb1.mp4" controls width="100%"></video></td>
-  </tr>
-</table>
+
+| ![wobble0](Git_Assets/wobble0.gif) | ![wobble1](Git_Assets/wobble1.gif) |
+|--------|---------------|
+| ![rgb0](Git_Assets/rgb0.gif) | ![rgb1](Git_Assets/rgb1.gif) |
 
 ## 🚀 使用 (Usage)
 
